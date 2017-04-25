@@ -1,0 +1,11 @@
+To jest pierwsza linijka
+To jest druga linijka
+To jest trzecia
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.
+Dane zapisane do pliku.

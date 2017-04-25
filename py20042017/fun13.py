@@ -1,11 +1,11 @@
 # funkcja sprawdzajaca czy podany string jest palindromem
 
 # import 20042017.fun7.odwr_str
-# from 20042017.fun7 import *
+from py20042017.fun7 import *
 
 
-def odwr_str(zdanie):
-    return zdanie[::-1]
+#def odwr_str(zdanie):
+#    return zdanie[::-1]
 
 
 def odwroc_input():
