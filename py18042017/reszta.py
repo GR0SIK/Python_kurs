@@ -14,7 +14,8 @@ for indeks, moneta in enumerate(monety):
     if reszta >= moneta:
         ilosc = reszta // moneta
         wartosc = ilosc * moneta
-        reszta = reszta - wartosc
+        reszta = round(reszta - wartosc, 1)
+        #reszta = reszta - wartosc
 
         wydac[indeks] = ilosc
 
