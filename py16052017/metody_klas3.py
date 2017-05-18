@@ -1,5 +1,5 @@
 class Pracownik(object):
-
+# zmienne klasy
     roczna_podw = 5
     ilosc_pracownikow = 0
 
