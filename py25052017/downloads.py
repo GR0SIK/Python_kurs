@@ -8,8 +8,16 @@ obrazek = "http://rozklad-pkp.pl/files/files/936/medium/tablica_rozklad_polecamy
 odpowiedz = requests.get(obrazek)
 #print(odpowiedz.status_code)
 # wb - oznacza write binarnie
+
+bajty = 0
 with open("pliczek.jpg", "wb") as plik:
     for kawalek in odpowiedz.iter_content(100000):
-        bajty = plik.write(kawalek)
-        print(bajty)
+        ilosc = plik.write(kawalek)
+        bajty += ilosc
+print(bajty)
 
+
+# with open("pliczek.jpg", "wb") as plik:
+#     for kawalek in odpowiedz.iter_content(100000):
+#         bajty = plik.write(kawalek)
+#         print(bajty)
