@@ -1,6 +1,6 @@
 
 
-plik = open('mojplik.txt', 'r')
+plik = open('mojplik.txt', 'a')
 
 linijka = plik.readline()
 print(len(linijka))
